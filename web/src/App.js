@@ -29,12 +29,10 @@ function App() {
 
     return (
         <div id="app">
-
             <aside>
                 <strong>Cadastrar-se</strong>
                 <DevForm onSubmit={handleAddDev}/>
             </aside>
-
             <main>
                 <ul>
                     {devs.map(dev => (
@@ -42,7 +40,6 @@ function App() {
                     ))}
                 </ul>
             </main>
-
         </div>
     )
 }
